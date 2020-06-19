@@ -1,0 +1,56 @@
+		body {
+			background-image: url(patern.png);
+		}
+		p{
+			margin-top: 13px;
+		}
+		.container {
+			padding-top: 30px;
+			text-align: center;
+			max-width: 800px;
+			margin: 0 auto;
+		}
+        .glavni {
+            text-align: center; 
+            background-color: #f6f6f6db;
+        }
+      	.dugme {
+            width: 150px;
+            height: 50px;
+            margin-top: 20px;
+            margin-bottom:27px;
+            border-radius: 15px 160px;
+			border: thin solid black;
+            background-color: #1d1d1b;
+            font-size: 16px;
+			color: white;
+			font-family: arial black;
+		}
+		#startdugme{
+			background-color: #1b860e;
+		}
+ 		#prikazvremena {
+            margin-top: 20px;
+            color: #d80b0b;
+			font-size: 40px;
+			max-width:200px;
+			margin: 0 auto;
+			transform: scale(1.6, 1);
+        }
+		#capture1{
+		 	font-size: 20px;	 	
+			float: 	right;
+			font-family: arial black;
+			width: 	400px;
+			margin: 0 auto;
+			background-color: #f6f6f6db;
+		}
+		#split1{
+		 	font-size: 20px;
+			float: 	left;
+			font-family: arial black;
+			width: 	400px;
+			margin: 0 auto;
+			background-color: #f6f6f6db;
+
+		}

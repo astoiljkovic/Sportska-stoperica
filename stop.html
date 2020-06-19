@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Štoperica</title>
+		<link rel="stylesheet" type="text/javascript">
+		<link rel="stylesheet" href="stop.css">
+		
+	</head>
+	<body>
+		<script src = "stop.js"></script>
+		<div class="container">
+			<div class="glavni">
+				<h1 id="prikazvremena">00:00:00.00</h1>
+				<h5 id="prikazvremena2">00:00:00.00</h5>
+				<button class="dugme" onclick="startfn()" id="startdugme">
+					<p id="starttekst">START</p>
+				</button>
+				<button class="dugme" onclick="resetfn()">
+					<p>RESET</p>
+				</button>
+			</div>
+			<div id="split1"> 
+				<button class="dugme" onclick="split()">
+					<p>SPLIT</p>
+				</button>
+			</div>
+			<div id="capture1"> 
+				<button class="dugme" onclick="capture()">
+					<p id="capture">CAPTURE</p>
+				</button>
+			</div>
+		</div>
+	</body>
+</html>
